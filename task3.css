@@ -1,0 +1,681 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Josefin+Sans:wght@500&family=Montserrat:wght@300&family=Nunito:wght@300&family=Oswald:wght@300;500;700&family=Rajdhani&family=Raleway:wght@400;500&family=Roboto+Slab:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis&family=Josefin+Sans:wght@500&family=Montserrat:wght@300&family=Nunito:wght@300&family=Oswald:wght@300;500;700&family=Rajdhani&family=Raleway:wght@400;500&family=Roboto+Slab:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis&family=Josefin+Sans:wght@500&family=Montserrat:wght@300&family=Nunito:wght@300&family=Oswald:wght@300;500;700&family=Rajdhani&family=Raleway:wght@400;500&family=Roboto+Slab:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis&family=Josefin+Sans:wght@500&family=Montserrat:wght@300&family=Nunito:wght@300&family=Oswald:wght@300;500;700&family=Rajdhani&family=Raleway:wght@400;500&family=Roboto+Slab:wght@100&family=Ubuntu+Condensed&display=swap');
+ 
+body{
+    
+}
+.nav{
+    display: flex;
+    background-color:rgb(181, 227, 177);
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -8px;
+
+}
+.title{
+        display: flex;
+        margin-top: 20px;
+        margin-left: 50px;
+}
+.text1 a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+}
+.text2{
+    margin-left: 350px;
+}
+.text2 a{
+    margin-left: 20px;
+    font-size: 15px;
+}
+/* navbar end */
+.a1{
+    margin-top: 200px;
+    margin-left: 40px;
+
+}
+.a1 h1{
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing:8px;
+    color: white;
+}
+.a1 p{
+    font-family: 'Dosis', sans-serif;
+    color: white;
+}
+
+.a1 button{
+    width: 150px;
+    height: 45px;
+    border-radius: 30px;
+    font-size: 15px;
+    /* margin-right:850px; */
+
+}
+.a1 button:hover{
+    background-color: rgb(163, 235, 99);
+    color: azure;
+} */
+/* .banner{
+    background-image: url(maxresdefault\ \(1\).jpg);
+    width: 1160px;
+    height: 400px;
+} */
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-color:black(0,0,0,0,4);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+
+}
+.banner video{
+    top: 60px;
+}
+.backround-clip{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media (min-aspect-ratio:16/9){
+    .backround-clip{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio:16/9){
+    .backround-clip{
+        width: auto;
+        height: 100%;
+    }
+}
+
+/* ------------------------------------------------------------------ */
+.siva{
+    display: flex;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+.pk{
+    background-image: url(young-woman-standing-grass-summer.jpg);
+    width: 270px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;  
+
+
+}
+.pk1{
+    background-image: url(fashion-portrait-young-woman-vacation-asian-wooden-boat.jpg);
+    width: 270px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 60px;
+}
+.tham{
+    
+    margin-left: 130px;
+}
+.st button{
+    width: 150px;
+    height: 45px;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 30px;
+
+
+
+}
+.st button:hover{
+    background-color: rgb(109, 197, 128);
+    color: azure;
+}
+
+
+.ha{
+    width: 100px;
+    margin-left: 200px; 
+    margin-top: -10px; 
+}
+
+
+.con2 p{
+    font-family: 'Dosis', sans-serif;
+    margin-top: 20px;
+}
+.con2 p i{
+    color: rgb(169, 169, 38);
+} 
+.con2 span{
+    font-family: 'Nunito', sans-serif;
+}
+.cont1{
+    /* margin-right: 500px; */
+}
+.ic1{
+    border-radius: 150px;
+background: #181816;
+width: 30px;
+height: 30px;
+margin-right: 10px;
+
+}
+.ic1 i{
+    color: white;
+    margin-left: 6px;
+    margin-top: 5px;
+}
+.ic1 i:hover{
+color: yellow;
+}
+.ic2{
+    margin-top: 5px;
+}
+.icona{
+    display: flex;
+    margin-left: 20px;
+
+}
+.ansari{
+    display: flex;
+    
+}
+
+/* -------------------------------------------------------------- */
+
+.dd{
+    margin-left: 300px;
+    padding-top: 130px;
+}
+nav{
+    display: flex;
+}
+ nav a{
+    text-decoration: none;
+    position: relative;
+    color:white; 
+ }
+  nav a:after{
+    content: '';
+    position:absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color:white;
+    transform: scaleX(1);
+    transition: transform 0.2s ease-in-out;
+  }
+  nav a:hover::after,
+  nav a:focus::after{
+    height: 4px;
+    transform: scaleX(1);
+    background-color: rgb(255, 111, 0);
+  }
+  nav a:hover{
+    color:rgb(255, 128, 0);
+  }
+  nav a{
+    padding: 10px;
+  }
+  .head h2{
+    margin-left: 180px;
+    padding-top: 50px;
+    color: white;
+
+  }
+  .see{
+    margin-left: 940px;
+    color: rgb(255, 174, 0);
+  }
+  .see :hover{
+    color: white;
+  }
+  
+/* --------------------------img cont ------------------------------------ */
+.imgcont{
+    display: flex;
+    padding-left: 135px;
+}
+.im1{
+    margin-left: 20px;
+}
+.im1 span{
+    font-size: 14px;
+}
+.im2{
+    margin-left: 20px;
+}
+.im2 span{
+    font-size: 14px;
+}
+.im3{
+    margin-left: 20px;
+}
+.im3 span{
+    font-size: 14px;
+}
+.im4{
+    margin-left: 20px;
+}
+.im4 span{
+    font-size: 14px;
+}
+.im5{
+    margin-left: 20px;
+}
+.im5 span{
+    font-size: 14px;
+}
+
+/* ------------------------------icon1----------------------- */
+.icona1{
+    display: flex;
+}
+.ic11{
+    margin-left: 170px;
+}
+.ic12{
+    margin-left: 70px;
+
+}
+.ic13{
+    margin-left: 70px;
+
+}
+.ic14{
+    margin-left: 60px;
+
+}
+.ic15{
+    margin-left: 60px;
+
+}
+/* ----------------------img cont2----------------------------- */
+.explore h2{
+    margin-left: 180px;
+    padding-top: 50px;
+    color: white;
+
+  }
+  .see2{
+    margin-left: 900px;
+    color: rgb(255, 174, 0);
+  }
+  .see2 :hover{
+    color: white;
+  }
+  
+  .imgcont2{
+    display: flex;
+    padding-left: 135px;
+}
+.im6{
+    margin-left: 20px;
+}
+.im6 span{
+    font-size: 14px;
+}
+.im7{
+    margin-left: 20px;
+}
+.im7 span{
+    font-size: 14px;
+}
+.im8{
+    margin-left: 20px;
+}
+.im8 span{
+    font-size: 14px;
+}
+.im9{
+    margin-left: 20px;
+}
+.im9 span{
+    font-size: 14px;
+}
+.im10{
+    margin-left: 20px;
+}
+.im10 span{
+    font-size: 14px;
+}
+
+/* --------------------------icon2---------------- */
+
+.icona2{
+    display: flex;
+}
+.ic16{
+    margin-left: 170px;
+}
+.ic17{
+    margin-left: 70px;
+
+}
+.ic18{
+    margin-left: 70px;
+
+}
+.ic19{
+    margin-left: 60px;
+
+}
+.ic20{
+    margin-left: 60px;
+
+}
+
+/* ------------------------------img cont3 ----------------- */
+.wild h2{
+    margin-left: 180px;
+    padding-top: 50px;
+    color: white;
+
+  }
+  .see3{
+    margin-left: 900px;
+    color: rgb(255, 174, 0);
+  }
+  .see3 :hover{
+    color: white;
+  }
+  /* --------------------------demo3----------------------------------- */
+  .imgcont3{
+    display: flex;
+    /* padding: 10px; */
+    height: 300px;
+    overflow: hidden;
+}
+
+.imgcont3 img{
+    /* padding: 50px; */
+    /* width: 100%; */
+    /* height: 100%; */
+    transition: 0.5s;
+    transform-origin: top;
+
+}
+
+.imgcont3 img:hover{
+    transform: scale(1.5);
+}
+  /* --------------------------demo----------------------------------- */
+
+  
+  .imgcont3{
+    display: flex;
+    padding-left: 135px;
+}
+.im11{
+    margin-left: 20px;
+}
+.im11 span{
+    font-size: 14px;
+}
+.im12{
+    margin-left: 20px;
+}
+.im12 span{
+    font-size: 14px;
+}
+.im13{
+    margin-left: 20px;
+}
+.im13 span{
+    font-size: 14px;
+}
+.im14{
+    margin-left: 20px;
+}
+.im14 span{
+    font-size: 14px;
+}
+.im15{
+    margin-left: 20px;
+}
+.im15 span{
+    font-size: 14px;
+}
+/* ----------------------icon3---------------------- */
+.icona3{
+    display: flex;
+}
+.ic21{
+    margin-left: 170px;
+}
+.ic22{
+    margin-left: 70px;
+
+}
+.ic23{
+    margin-left: 70px;
+
+}
+.ic24{
+    margin-left: 60px;
+
+}
+.ic25{
+    margin-left: 60px;
+
+}
+
+.st1 button{
+    width: 150px;
+    height: 45px;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 500px;
+    background-color: rgb(204, 171, 26);
+    color: white;
+    border: none;
+
+
+
+
+}
+.st1 button:hover{
+   
+    color: black;
+    background-color: aliceblue;
+}
+.cont123{
+    background-color: rgb(103, 43, 43);
+    width: 1150px;
+    height: 1900px;
+
+}
+.cont123{
+    margin-top: 50px;
+}
+
+/* ---------------------------------------------------dim------------- */
+.lastback{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(boy-enjoying-nature-time-water.jpg);
+    width: 1150px;
+    height: 420px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;  
+     margin-top: -23px;
+}
+.center{
+    margin-top: 40px;
+}
+.sub {
+    text-align: center;
+    padding-top: 70px;
+    color: aliceblue;
+}
+
+.white{
+    position: relative;
+    border-radius: 0px;
+background: #e0e0e0;
+width: 550px;
+height: 165px;
+margin-left: 290px;
+margin-top: 60px;
+}
+.white p{
+    padding-top: 30px;
+    margin-left:40px ;
+}
+/* .white button{
+    width: 350px;
+    height: 35px;
+    margin-left: 40px;
+    margin-top: 20px;
+} */
+.white input{
+    position:relative;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 50px;
+    border: none;
+    outline: none;
+    width: 300px;
+    height: 30px;
+}
+ .dimic{
+    position:absolute;
+    margin-left: 615px;
+    margin-top: -123px;
+    
+}
+
+/* -----------------------------end------------------------ */
+.endcont0{
+    display: flex;
+    margin-top: 40px;
+}
+.endimg{
+    background-image: url(hunger.png);
+    width: 400px;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 60px;
+}
+.endcont1{
+    
+    margin-left: 240px;
+}
+.end01 {
+    background-color: black;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+.end01 h2{
+    color: white;
+    margin-left: 12px;
+    padding-top: 10px;
+}
+
+
+.endln{
+    width: 100px;
+    margin-left: 265px; 
+    margin-top: -40px; 
+}
+
+
+.endcon2 {
+    font-family: 'Nunito', sans-serif;
+    margin-top: 30px;
+}
+.endbutton button{
+    width: 150px;
+    height: 45px;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-top: 30px;
+
+
+
+}
+.endbutton button:hover{
+    background-color: rgb(87, 16, 16);
+    color: azure;
+}
+
+/* ------------------final-------------------- */
+.black{
+    background-color:black;
+    width: 1150px;
+    height: 300px;
+    margin-top: 30px;
+}
+.final0{
+    display: flex;
+    margin-left: 250px;
+    padding-top: 50px;
+}
+.final1 h3{
+    color: white;
+    margin-left: 50px;
+}
+.final2 h3{
+    color: white;
+    margin-left: 50px;
+}
+.final3 h3{
+    color: white;
+    margin-left: 50px;
+}
+.final4 h3{
+    color: white;
+    margin-left: 50px;
+}
+.final5 h3{
+    color: white;
+    margin-left: 50px;
+}
+.final6 h3{
+    color: white;
+    margin-left: 50px;
+}
+
+/* <!-- --------------------------endicon--------- --> */
+
+.endic0{
+    display: flex;
+    padding-top: 50px;
+    margin-left: 400px;
+}
+.endic1{
+    color: white;
+    margin-left: 50px;
+}
+.endic2{
+    color: white;
+    margin-left: 50px;
+
+}
+.endic3{
+    color: white;
+    margin-left: 50px;
+
+}
+.endic4{
+    color: white;
+    margin-left: 50px;
+
+}
+/* ------------------------------------------------------------------ */
+
+
+
+
+
